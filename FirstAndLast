@@ -1,0 +1,42 @@
+//(c) A+ Computer Science
+//www.apluscompsci.com
+
+//Name - Rowland Soto	
+//Date - 12/16/18
+//Class - Comp Science
+//Lab  - First and last
+
+import static java.lang.System.*;
+ 
+public class FirstAndLast
+{
+    private String word;
+ 
+    public FirstAndLast(String s)
+    {
+        word = "null";
+    }
+ 
+    public void setString(String s)
+    {
+        word = word.substring(0);
+    }
+ 
+    public String getFirst()
+    {
+        word = word.substring(0);
+        return word;
+    }
+   
+    public String getLast()
+    {
+        word = word.substring(5);
+        return word;
+    }
+ 
+    public String toString()
+    {
+        String output= word;
+        return output;
+    }
+}
